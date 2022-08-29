@@ -14,7 +14,7 @@ public class FileSerchTest {
         //2
     }
 
-    
+    //文件搜索
     public static void serchFile(File dir,String fileName){
 
     }
