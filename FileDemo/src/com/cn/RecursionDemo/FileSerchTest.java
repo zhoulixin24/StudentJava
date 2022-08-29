@@ -16,6 +16,6 @@ public class FileSerchTest {
 
     //文件搜索
     public static void serchFile(File dir,String fileName){
-
+        System.out.println("测试Git");
     }
 }
