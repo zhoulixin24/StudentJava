@@ -1,4 +1,4 @@
-package com.cn.RecursionDemo;
+package com.cn.recursionDemo;
 
 import java.io.File;
 import java.io.IOException;

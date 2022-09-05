@@ -1,0 +1,40 @@
+package com.cn.ioStreamDemo;
+
+import java.io.*;
+
+/**
+ * @author 阿甩甩
+ * Create by 2022/9/5 21:52
+ *
+ * 学会使用字节流完成文件的复制，支持一切文件的复制
+ */
+public class CopyTest {
+    public static void main(String[] args) {
+        InputStream is = null;
+        OutputStream os = null;
+        try {
+            //创建一个输入流管道与原视频创建沟通
+            is = new FileInputStream("D:/aaa/00.mov");
+            //创建输出流 与目标文件沟通
+            os = new FileOutputStream("D:/aaa/01.mov");
+            //定义一个字节数组转移数据
+            byte[] b = new byte[1024];
+            int len;//记录每次读取的字节数
+            while ((len = is.read(b))!=-1){
+                os.write(b,0,len);//将字节组写入目标文件
+            }
+            System.out.println("复制完成");
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            //关流
+            try {
+                if (is!=null)is.close();
+                if (os!=null)os.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}

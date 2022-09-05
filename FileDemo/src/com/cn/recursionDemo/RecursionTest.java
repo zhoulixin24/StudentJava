@@ -1,4 +1,4 @@
-package com.cn.RecursionDemo;
+package com.cn.recursionDemo;
 
 /**
  * @author 阿甩甩
