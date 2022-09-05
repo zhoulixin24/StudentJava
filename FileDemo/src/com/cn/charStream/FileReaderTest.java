@@ -9,7 +9,7 @@ import java.io.Reader;
  * @author 阿甩甩
  * Create by 2022/9/5 22:17
  *
- * 字符流--读取
+ * 字符流-- 一次读取一个字符
  */
 public class FileReaderTest {
     public static void main(String[] args) {
