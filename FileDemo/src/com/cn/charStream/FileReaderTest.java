@@ -17,8 +17,14 @@ public class FileReaderTest {
                 Reader reader = new FileReader("FileDemo/src/com/cn/readerTest.txt")
         ) {
             // 读取一个字符返回，没有的话返回-1
-            int code  = reader.read();
+    /*        int code  = reader.read();
             System.out.println((char) code);
+            */
+            //循环读取数组
+            int code;
+            while ((code = reader.read())!= -1){
+                System.out.println((char) code);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
