@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/FileDemo/FileDemo.iml" filepath="$PROJECT_DIR$/FileDemo/FileDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLogBackDemo/JavaLogBackDemo.iml" filepath="$PROJECT_DIR$/JavaLogBackDemo/JavaLogBackDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudentJava.iml" filepath="$PROJECT_DIR$/StudentJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" filepath="$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" />
     </modules>
   </component>
 </project>
