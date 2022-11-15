@@ -10,7 +10,7 @@ import java.net.Socket;
  * @author 阿甩甩
  * Create by 2022/9/26 19:31
  */
-public class ServerReaderRunnable implements Runnable{
+public class  ServerReaderRunnable implements Runnable{
     public Socket socket;
     public ServerReaderRunnable (Socket socket){
         this.socket = socket;
